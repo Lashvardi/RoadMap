@@ -1,0 +1,106 @@
+*{
+    font-family: 'JetBrains Mono', monospace !important;
+
+}
+.main_box{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .inner{
+        width: 70%;
+        height: 100%;
+        .left_side{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .paragraph{
+                margin-top: 30px;
+                width: 87%;
+            }
+            .btn_box{
+                width: 100%;
+                height: 120px;
+                display: flex;
+                align-items: flex-start;
+                padding: 15px 40px 25px;
+                .Contact{
+                    margin-left: 15px;
+                }
+            }
+            .text{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 120px;
+                .log{
+                    color: rgb(10, 10, 131);
+                }
+                .console{
+                    color: #fff;
+                }
+                .braces{
+                    color: #030394;
+                }
+                .iner{
+                    color: #79b200;
+                }
+                .logger{
+                    font-size: 40px;
+                    font-weight: 500;
+
+                }
+                .dot{
+                    color: cyan;
+                    font-size: 40px;
+                }
+
+                .Open_brace{
+                    color: #7cddff;
+                }
+                .text1{
+                    color: #e3482f;
+                }
+                .Closing_brace{
+                    color: #7cddff;
+                }
+                .white{
+                    color: #fff;
+                }
+                .front{
+                    font-size: 49px;
+                    font-weight: 500;
+                }
+                .semicolon{
+                    color: #cfcfcf;
+                }
+            }
+        }
+    }
+}
+
+.wrapper{
+    position: absolute;
+    transform: translateX(-300px);
+    z-index: -1;
+}
+
+.wrapper2{
+    position: absolute;
+    transform: translateX(210%);
+    z-index: -1;
+}
+
+.paragraph{
+    color: #fff;
+}

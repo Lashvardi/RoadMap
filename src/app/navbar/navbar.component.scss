@@ -1,0 +1,42 @@
+.bar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .left_side{
+        img{
+            width: 56px;
+            transition: 500ms;
+            filter: grayscale(100%);
+            &:hover{
+                filter: grayscale(0);
+            }
+        }
+    }
+    .right_side{
+        a{
+            text-decoration: none;
+            margin-right: 40px;
+            color: #cfcfcf;
+            font-size: 17px;
+            transition: 200ms;
+            &:hover{
+                color: #ffffff;
+            }
+        }
+    }
+    .righter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .button_side{
+            margin-left: 160px;
+            .Started{
+                width: 130px;
+                height: 40px;
+                border-radius: 2px;
+            }
+        }
+    }
+}
