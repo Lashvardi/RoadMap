@@ -17,12 +17,15 @@
     .inner{
         width: 70%;
         height: 100%;
+        display: flex;
+        align-items: center;
         .left_side{
             width: 50%;
             height: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
+            border-right: 3px #707070 solid;
             .paragraph{
                 margin-top: 30px;
                 width: 87%;
@@ -86,6 +89,13 @@
                 }
             }
         }
+        .right_side{
+            width: 50%;
+            height: 110%;
+            z-index: 124 !important;
+            border-radius: 50px;
+            margin-left: 30px;
+        }
     }
 }
 
@@ -97,8 +107,9 @@
 
 .wrapper2{
     position: absolute;
-    transform: translateX(210%);
-    z-index: -1;
+    transform: translateX(245%);
+    margin-top: 500px;
+    z-index: -124;
 }
 
 .paragraph{

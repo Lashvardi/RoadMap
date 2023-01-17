@@ -15,6 +15,7 @@
 body {
     background-color: #222;
     overflow-x: hidden;
+    overflow-y: hidden;
   }
   
   /* This is just to transition when you change the viewport size. */
@@ -60,6 +61,7 @@ body {
     background-image: linear-gradient(rgba(33, 174, 209, 0.815), rgba(12, 189, 165, 0.61));
     animation: rotate var(--speed) var(--easing) alternate infinite;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    z-index: -125;
   }
   
   @media (min-width: 720px) {

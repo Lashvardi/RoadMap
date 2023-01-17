@@ -22,7 +22,9 @@
     "@ng-bootstrap/ng-bootstrap": "^13.0.0",
     "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.2.0",
+    "ngx-three": "^0.23.0",
     "rxjs": "~7.5.0",
+    "three": "^0.148.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
@@ -31,6 +33,7 @@
     "@angular/cli": "~14.0.0",
     "@angular/compiler-cli": "^14.0.0",
     "@types/jasmine": "~4.0.0",
+    "@types/three": "^0.148.0",
     "jasmine-core": "~4.1.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
