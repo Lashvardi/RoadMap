@@ -108,11 +108,61 @@
 
 .wrapper2{
     position: absolute;
-    transform: translateX(245%);
-    margin-top: 500px;
+    transform: translateX(230%);
+    margin-top: 400px;
     z-index: -124;
 }
 
 .paragraph{
     color: #fff;
 }
+
+
+
+.typer1 {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(40) alternate,
+      blink 800ms steps(40) infinite normal;
+      border-right: 3px solid #cfcfcf;
+  }
+  @keyframes typewriter {
+    from {
+         width: 0%;
+    }
+    to {
+      width: 85%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: black;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+
+
+  .logger {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter1   5s steps(40) alternate,
+      blink 800ms steps(40) infinite normal;
+      border-right: 3px solid #cfcfcf;
+  }
+  @keyframes typewriter1 {
+    from {
+         width: 0%;
+    }
+    to {
+      width: 90%;
+    }
+  }
+
+
+  .company_name{
+    font-weight: 900;
+    font-size: 20px;
+    color: #832fe3;
+  }

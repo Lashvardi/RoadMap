@@ -10,6 +10,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoadingComponent } from './loading/loading.component';
 import { ContactComponent } from './contact/contact.component';
 import { ThanksComponent } from './thanks/thanks.component';
+import { BoardComponent } from './board/board.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ThanksComponent } from './thanks/thanks.component';
     LandingComponent,
     LoadingComponent,
     ContactComponent,
-    ThanksComponent
+    ThanksComponent,
+    BoardComponent
   ],
   imports: [
     BrowserModule,
