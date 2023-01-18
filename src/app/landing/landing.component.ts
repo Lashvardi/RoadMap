@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as THREE from "three"
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader'
+import { ContactComponent } from '../contact/contact.component';
 @Component({
   selector: 'app-landing',
   templateUrl: './landing.component.html',
@@ -12,6 +13,7 @@ export class LandingComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
 
     var scene = new THREE.Scene();
     var camera = new THREE.PerspectiveCamera(
@@ -71,7 +73,6 @@ controls.enabled=true;
     }
 
     animate()
-
   }
 
 }

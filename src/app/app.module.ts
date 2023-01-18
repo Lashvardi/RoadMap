@@ -7,13 +7,19 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LandingComponent } from './landing/landing.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LoadingComponent } from './loading/loading.component';
+import { ContactComponent } from './contact/contact.component';
+import { ThanksComponent } from './thanks/thanks.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    LandingComponent
+    LandingComponent,
+    LoadingComponent,
+    ContactComponent,
+    ThanksComponent
   ],
   imports: [
     BrowserModule,

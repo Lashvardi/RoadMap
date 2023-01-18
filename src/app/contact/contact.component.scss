@@ -1,0 +1,21 @@
+.center{
+    margin: auto;
+    width: 30%;
+    height: 760px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    .formgroup{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-top: 120px;
+        input{
+            margin-bottom: 30px;
+        }
+        .bigger{    
+            height: 200px;
+            text-align: left;
+        }
+    }
+}
