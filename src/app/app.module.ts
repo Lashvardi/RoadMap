@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -11,6 +10,8 @@ import { LoadingComponent } from './loading/loading.component';
 import { ContactComponent } from './contact/contact.component';
 import { ThanksComponent } from './thanks/thanks.component';
 import { BoardComponent } from './board/board.component';
+import { Lesson1BasicsComponent } from './lesson1-basics/lesson1-basics.component';
+import { LeftdocumentationComponent } from './leftdocumentation/leftdocumentation.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,9 @@ import { BoardComponent } from './board/board.component';
     LoadingComponent,
     ContactComponent,
     ThanksComponent,
-    BoardComponent
+    BoardComponent,
+    Lesson1BasicsComponent,
+    LeftdocumentationComponent
   ],
   imports: [
     BrowserModule,

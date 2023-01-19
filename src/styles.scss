@@ -4,12 +4,17 @@
 /* Importing Bootstrap SCSS file. */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
 @import '~bootstrap/scss/bootstrap';
+@font-face {
+  font-family: qartuli;
+  src: url(../../assets/bpg_extrasquare_mtavruli_2009.ttf);
+}
 
 *{
     box-sizing: border-box;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     transition: all 0.25s ease-out;
+    padding: 0;
 }
 
 body {

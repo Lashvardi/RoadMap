@@ -1,0 +1,86 @@
+.lessons_side{
+  height: 800px;
+  overflow-y: scroll;
+  .gakvetili{
+    width: 150px;
+    height: auti;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: scroll !important;
+    .html_main_header{
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 600;
+        z-index: 124;
+        opacity: 1 !important;
+        color: #000000;
+      background-color: #f06529 !important; 
+        &:hover{
+          color: #fff;
+        }
+    }
+    .css_header{
+      background-color: #264de4 !important;
+      text-decoration: none;
+      font-size: 19px;
+      font-weight: 600;
+      z-index: 124;
+      opacity: 1 !important;
+      color: #000000;
+      &:hover{
+        color: #fff;
+      }
+    }
+    .javascript_main_header{
+      background-color: #f0db4f !important;
+      text-decoration: none;
+      font-size: 19px;
+      color: #000000;
+      font-weight: 600;
+      z-index: 124;
+      opacity: 1 !important;
+      &:hover{
+        color: #fff;
+      }
+    }
+    .list{
+      color: #ffffff;
+      margin-top: 5px;
+      &:hover{
+        text-decoration: underline;
+      }
+      a{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 11px;
+      }
+    }
+    .main_list{
+      padding-left: 20px;
+    }
+}
+
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #828282 #222222;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #222222;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #828282;
+    border-radius: 5px;
+    border: 3px none #ffffff;
+  }
+

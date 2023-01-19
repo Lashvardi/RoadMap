@@ -1,45 +1,19 @@
-.lessons_side{
-    width: 150px;
-    height: 100vh;
-    overflow-y: scroll !important;
-}
 
-.gakvetili{
-    width: 100%;
-    height: 60px;
+
+.wrapper{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    a{
-        text-decoration: none;
-        color: #fff;
-        font-weight: 600;
-        z-index: 124;
-        opacity: 1 !important;
-    }
-    &:hover{
-        background-color: #cfcfcf4d;
+    .board_starter{
+        width: 100%;
+        height: 800px;
+        overflow-y: scroll;
+        border: solid 1px blue;
+        .text_inner{
+            padding: 15px 15px 15px;
+            border-bottom: 3px solid #cfcfcf ;
+        }
+        .header_text{
+            color: #fff;
+            font-family: qartuli;
+        }
     }
 }
-
-/* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #828282 #222222;
-  }
-
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 12px;
-  }
-
-  *::-webkit-scrollbar-track {
-    background: #222222;
-  }
-
-  *::-webkit-scrollbar-thumb {
-    background-color: #828282;
-    border-radius: 5px;
-    border: 3px none #ffffff;
-  }

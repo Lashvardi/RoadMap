@@ -40,7 +40,7 @@ export class LandingComponent implements OnInit {
 
     // var light = new THREE.HemisphereLight( 0xffffbb, 0x080820, 3);
     // var light2 = new THREE.PointLight(0xffffff, 3);
-    var light3 = new THREE.AmbientLight(0xffffff, 0.9);
+    var light3 = new THREE.AmbientLight(0xffffff, 0.7);
     var light4 = new THREE.AmbientLight(0xffffff, 0.9);
     light4.position.set(4,10,4)
     scene.add(light3, light4)

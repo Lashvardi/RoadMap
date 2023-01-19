@@ -1,0 +1,47 @@
+.lesson_here {
+  width: 100%;
+  height: 800px;
+  overflow-y: scroll;
+  border: solid 2px red;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.accordion-item{
+  background-color: #222 !important;
+  border: 0;
+  color: #fff;
+}
+
+.accordion-button{
+  color: #fff;
+  background-color: rgb(58, 58, 58);
+}
+
+
+.accordion-button:active{
+  border: 0;
+}
+
+.accordion_myContent{
+  width: 100%;
+  height: 700px;
+  border: solid 1px blueviolet;
+  overflow-y: scroll;
+}
+
+ul li{
+  font-family: qartuli;
+}
+
+
+ul ol{
+  margin-bottom: 30px;
+}
+
+
+.axsna{
+  width: 450px;
+}

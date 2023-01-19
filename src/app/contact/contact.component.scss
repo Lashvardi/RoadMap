@@ -1,21 +1,36 @@
 .center{
     margin: auto;
     width: 30%;
-    height: 760px;
-    border: solid 1px black;
+    height: 600px;
     display: flex;
     justify-content: center;
-    .formgroup{
+    form {
         display: flex;
         flex-direction: column;
-        width: 70%;
-        margin-top: 120px;
-        input{
-            margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+        input {
+            width: 400px;
+            text-indent: 10px;
+            height: 40px;
+            font-size: 14px;
+            margin-bottom: 40px;
+            background-color: #181818;
+            color: rgb(255, 255, 255, 1) !important; 
+            border: 1px solid white;
+            border-radius: 10px;
         }
-        .bigger{    
-            height: 200px;
-            text-align: left;
+        button {
+            width: 100px;
         }
     }
+}
+
+::placeholder {
+color: white;
+opacity: 1;
+}
+
+input:focus::placeholder {
+color: rgba(255, 255, 255, 0.2);
 }
