@@ -1,8 +1,7 @@
 .lesson_here {
-  width: 100%;
+  width: 90%;
   height: 800px;
   overflow-y: scroll;
-  border: solid 2px red;
 }
 
 .wrapper {
@@ -10,7 +9,7 @@
 }
 
 .accordion-item{
-  background-color: #222 !important;
+  background-color: #282A3A !important;
   border: 0;
   color: #fff;
 }
@@ -28,7 +27,6 @@
 .accordion_myContent{
   width: 100%;
   height: 700px;
-  border: solid 1px blueviolet;
   overflow-y: scroll;
 }
 
@@ -38,10 +36,14 @@ ul li{
 
 
 ul ol{
+  font-family: qartuli2;
   margin-bottom: 30px;
+  color: #cfcfcfcf;
+  width: 500px;
 }
 
 
-.axsna{
-  width: 450px;
+.Informative{
+  color: #fff;
 }
+

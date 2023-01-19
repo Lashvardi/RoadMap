@@ -6,8 +6,17 @@
 @import '~bootstrap/scss/bootstrap';
 @font-face {
   font-family: qartuli;
-  src: url(../../assets/bpg_extrasquare_mtavruli_2009.ttf);
+  src: url(../../roadmap/src/assets/bpg_extrasquare_mtavruli_2009.ttf);
 }
+
+@font-face {
+  font-family: qartuli2;
+  src: url(../../roadmap/src/assets/bpg_arial_2009.ttf);
+}
+
+
+
+
 
 *{
     box-sizing: border-box;
@@ -117,3 +126,24 @@ body {
     }
   }
 /* Importing Bootstrap SCSS file. */
+
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #828282 #222222;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #222222;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #828282;
+  border-radius: 5px;
+  border: 3px none #ffffff;
+}
