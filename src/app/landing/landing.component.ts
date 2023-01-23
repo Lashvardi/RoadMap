@@ -44,7 +44,7 @@ export class LandingComponent implements OnInit {
     controls.enableZoom = false;
     controls.enabled = true;
 
-    camera.position.x = 1.6;
+    camera.position.x = 1.7;
     camera.position.y = 0.7;
     camera.position.z = 0;
     camera.rotation.set(30, 80, 0);

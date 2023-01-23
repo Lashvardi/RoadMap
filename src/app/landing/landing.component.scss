@@ -60,7 +60,7 @@
                     color: #79b200;
                 }
                 .logger{
-                    font-size: 1.9vw;
+                    font-size: 25px;
                     font-weight: 500;
 
                 }
@@ -82,7 +82,7 @@
                     color: #fff;
                 }
                 .front{
-                    font-size: 2.4vw;
+                    font-size: 40px;
                 }
                 .semicolon{
                     color: #cfcfcf;
@@ -90,7 +90,7 @@
             }
         }
         .right_side{
-            width: 60%;
+            width: 50%;
             height: 110%;
             z-index: 124 !important;
             border-radius: 50px;
@@ -165,4 +165,63 @@
     font-weight: 900;
     font-size: 20px;
     color: #832fe3;
+  }
+
+
+  
+@media (max-width: 1203px) {
+  body{
+    overflow-x: scroll !important;
+  }
+    .inner{
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .left_side{
+        border: 0 !important;
+        margin: 0 !important;
+    }
+
+    .paragraph{
+        width: 500px !important;
+    }
+
+    .typer1 {
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter 3s steps(25) alternate,
+          blink 800ms steps(40) infinite normal;
+          border-right: 3px solid #cfcfcf;
+      }
+      @keyframes typewriter {
+        from {
+             width: 0%;
+        }
+        to {
+          width: 100%;
+        }
+      }
+
+
+      .logger {
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter1   5s steps(40) alternate,
+          blink 800ms steps(40) infinite normal;
+          border-right: 3px solid #cfcfcf;
+      }
+      @keyframes typewriter1 {
+        from {
+             width: 0%;
+        }
+        to {
+          width: 90%;
+        }
+      }
+
+      .btn_box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
   }
