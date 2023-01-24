@@ -131,7 +131,7 @@
          width: 0%;
     }
     to {
-      width: 85%;
+      width: 430px;
     }
   }
   @keyframes blink {
@@ -147,7 +147,7 @@
   .logger {
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter1   5s steps(40) alternate,
+    animation: typewriter1   5s steps(30) alternate,
       blink 800ms steps(40) infinite normal;
       border-right: 3px solid #cfcfcf;
   }
@@ -156,7 +156,7 @@
          width: 0%;
     }
     to {
-      width: 90%;
+      width: 370px;
     }
   }
 
@@ -198,7 +198,7 @@
              width: 0%;
         }
         to {
-          width: 100%;
+          width: 430px;
         }
       }
 
@@ -215,7 +215,7 @@
              width: 0%;
         }
         to {
-          width: 90%;
+          width: 370px;
         }
       }
 
@@ -224,4 +224,63 @@
         align-items: center;
         justify-content: center;
       }
+  }
+
+
+  @media (max-width: 700px) {
+    .btn_box{
+      padding: 0 !important;
+      height: auto !important;
+      button{
+        font-size: 13px;
+      }
+    }
+  }
+
+
+  @media (max-width: 630px) {
+    .btn_box{
+      height: 0 !important;
+      button{
+        font-size: 12px;
+      }
+    }
+    .paragraph{
+      width: 350px !important;
+      font-size: 11px;
+    }
+    .company_name{
+      font-size: 13px;
+    }
+    .logger{
+      font-size: 21px !important;
+    }
+    .typer1{
+      font-size: 35px !important;
+    }
+
+    .logger {
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typewriter1   5s steps(40) alternate,
+        blink 800ms steps(40) infinite normal;
+        border-right: 3px solid #cfcfcf;
+    }
+    @keyframes typewriter1 {
+      from {
+           width: 0%;
+      }
+      to {
+        width: 315px;
+      }
+    }
+  }
+
+
+  @media (max-width: 591px) {
+    .btn_box{
+      button{
+        font-size: 10px;
+      }
+    }
   }

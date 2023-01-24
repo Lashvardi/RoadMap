@@ -10,6 +10,8 @@
 
 .accordion-item{
   background-color: #282A3A !important;
+  border-bottom: 3px grey solid!important;
+
   border: 0;
   color: #fff;
 }
@@ -17,6 +19,7 @@
 .accordion-button{
   color: #fff;
   background-color: rgb(58, 58, 58);
+  z-index: 1234;
 }
 
 
