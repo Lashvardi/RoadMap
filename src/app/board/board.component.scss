@@ -1,17 +1,15 @@
-
-
 .wrapper{
     display: flex;
     .board_starter{
         width: 100%;
         height: 800px;
         overflow-y: scroll;
-        border: solid 1px blue;
         .text_inner{
             padding: 15px 15px 15px;
             border-bottom: 3px solid #cfcfcf ;
         }
         .header_text{
+            font-size: 1.2vw;
             color: #fff;
             font-family: qartuli;
         }
