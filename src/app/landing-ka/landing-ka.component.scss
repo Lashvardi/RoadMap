@@ -1,0 +1,303 @@
+*{
+    font-family: 'JetBrains Mono', monospace !important;
+}
+@font-face {
+  font-family: qartuli;
+  src: url(../../assets/bpg_extrasquare_mtavruli_2009.ttf);
+}
+.main_box{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .qart{
+          font-family: qartuli !important;
+        }
+    }
+    .inner{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        .left_side{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-right: 3px #707070 solid;
+            margin-top: 60px;
+            .paragraph{
+                margin-top: 30px;
+                width: 87%;
+            }
+            .btn_box{
+                width: 100%;
+                height: 120px;
+                display: flex;
+                align-items: flex-start;
+                padding: 15px 40px 25px;
+                .Contact{
+                    margin-left: 15px;
+                }
+                button{
+                  font-family: qartuli !important;
+                }
+            }
+            .text{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 120px;
+                .log{
+                    color: rgb(10, 10, 131);
+                }
+                .console{
+                    color: #fff;
+                }
+                .braces{
+                    color: #030394;
+                }
+                .iner{
+                    color: #79b200;
+                }
+                .logger{
+                    font-size: 25px;
+                    font-weight: 500;
+
+                }
+                .dot{
+                    color: cyan;
+                    font-size: 40px;
+                }
+
+                .Open_brace{
+                    color: #7cddff;
+                }
+                .text1{
+                    color: #e3482f;
+                }
+                .Closing_brace{
+                    color: #7cddff;
+                }
+                .white{
+                    color: #fff;
+                }
+                .front{
+                    font-size: 40px;
+                }
+                .semicolon{
+                    color: #cfcfcf;
+                }
+            }
+        }
+        .right_side{
+            width: 50%;
+            height: 110%;
+            z-index: 124 !important;
+            border-radius: 50px;
+            margin-left: 30px;
+
+        }
+    }
+}
+
+.wrapper{
+    position: absolute;
+    transform: translateX(-300px);
+    z-index: -1;
+}
+
+.wrapper2{
+    position: absolute;
+    transform: translateX(230%);
+    margin-top: 400px;
+    z-index: -124;
+}
+
+.paragraph{
+    color: #fff;
+    font-family: qartuli2 !important; 
+    span{
+      font-family: qartuli !important;
+    }
+}
+
+
+
+.typer1 {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(25) alternate,
+      blink 800ms steps(40) infinite normal;
+      border-right: 3px solid #cfcfcf;
+  }
+  @keyframes typewriter {
+    from {
+         width: 0%;
+    }
+    to {
+      width: 430px;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: black;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+
+
+  .logger {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter1   5s steps(30) alternate,
+      blink 800ms steps(40) infinite normal;
+      border-right: 3px solid #cfcfcf;
+  }
+  @keyframes typewriter1 {
+    from {
+         width: 0%;
+    }
+    to {
+      width: 490px;
+    }
+  }
+
+
+  .company_name{
+    font-weight: 900;
+    font-size: 20px;
+    color: #832fe3;
+  }
+
+
+  
+@media (max-width: 1203px) {
+  body{
+    overflow-x: scroll !important;
+  }
+    .inner{
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .left_side{
+        border: 0 !important;
+        margin: 0 !important;
+    }
+
+    .paragraph{
+        width: 500px !important;
+    }
+
+    .typer1 {
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter 3s steps(25) alternate,
+          blink 800ms steps(40) infinite normal;
+          border-right: 3px solid #cfcfcf;
+      }
+      @keyframes typewriter {
+        from {
+             width: 0%;
+        }
+        to {
+          width: 430px;
+        }
+      }
+
+
+      .logger {
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter1   5s steps(40) alternate,
+          blink 800ms steps(40) infinite normal;
+          border-right: 3px solid #cfcfcf;
+      }
+      @keyframes typewriter1 {
+        from {
+             width: 0%;
+        }
+        to {
+          width: 490px;
+        }
+      }
+
+      .btn_box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  }
+
+
+  @media (max-width: 700px) {
+    .btn_box{
+      padding: 0 !important;
+      height: auto !important;
+      button{
+        font-size: 13px;
+      }
+    }
+  }
+
+
+  @media (max-width: 630px) {
+    .btn_box{
+      height: 0 !important;
+      button{
+        font-size: 12px;
+      }
+    }
+    .paragraph{
+      width: 350px !important;
+      font-size: 11px;
+    }
+    .company_name{
+      font-size: 13px;
+    }
+    .logger{
+      font-size: 21px !important;
+    }
+    .typer1{
+      font-size: 35px !important;
+    }
+
+    .qart{
+      font-family: qartuli !important;
+    }
+
+    .logger {
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typewriter1   5s steps(40) alternate,
+        blink 800ms steps(40) infinite normal;
+        border-right: 3px solid #cfcfcf;
+    }
+    @keyframes typewriter1 {
+      from {
+           width: 0%;
+      }
+      to {
+        width: 315px;
+      }
+    }
+  }
+
+
+  @media (max-width: 591px) {
+    .btn_box{
+      button{
+        font-size: 10px;
+      }
+    }
+  }

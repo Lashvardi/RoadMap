@@ -12,6 +12,10 @@ import { ThanksComponent } from './thanks/thanks.component';
 import { BoardComponent } from './board/board.component';
 import { Lesson1BasicsComponent } from './lesson1-basics/lesson1-basics.component';
 import { LeftdocumentationComponent } from './leftdocumentation/leftdocumentation.component';
+import { HomeKaComponent } from './home-ka/home-ka.component';
+import { LandingKaComponent } from './landing-ka/landing-ka.component';
+import { NavbarKaComponent } from './navbar-ka/navbar-ka.component';
+import { DocbarComponent } from './docbar/docbar.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { LeftdocumentationComponent } from './leftdocumentation/leftdocumentatio
     ThanksComponent,
     BoardComponent,
     Lesson1BasicsComponent,
-    LeftdocumentationComponent
+    LeftdocumentationComponent,
+    HomeKaComponent,
+    LandingKaComponent,
+    NavbarKaComponent,
+    DocbarComponent
   ],
   imports: [
     BrowserModule,
