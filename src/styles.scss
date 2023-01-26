@@ -30,6 +30,7 @@ body {
     background-color: #222;
     overflow-x: hidden;
     overflow-y: hidden;
+    z-index: -125;
   }
   
   /* This is just to transition when you change the viewport size. */
